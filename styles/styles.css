@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: grid;
+  height: 1500px;
+  width: 100%;
+  justify-items: center;
+  align-items: center;
+  border: 2px solid rgb(255, 0, 0);
+}
+
+.colorDivvy {
+  border: 6px solid;
+  height: 100%;
+  width: 100%;
+}
+
+#container {
+  position: relative;
+  display: grid;
+  height: 800px;
+  width: 1200px;
+  border: 8px solid black;
+  top: 15%;
+  left: 15%;
+}
+#container #click {
+  position: absolute;
+  top: 50%;
+  background: linear-gradient(black, rgb(87, 80, 80));
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 100px;
+  width: 100px;
+  height: 50px;
+}
+
+/*# sourceMappingURL=styles.css.map */

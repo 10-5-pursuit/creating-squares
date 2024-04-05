@@ -1,10 +1,11 @@
 const container = document.getElementById('container');
 const buttonGenerator = document.getElementById('click');
-const colorArray =  ["#EA0B0B", "#6540FC", "#63AECE", "#D16FDC", "#238100", "#FEFF00", "#FF7B00", "#0055FF", "#1C1C2E", "#FFA9A3", "#F88FFF"];
+const colorArray =  ["#47ae5c", "#a89fcf", "#2b077b", "#6fcfdc", "#238100", "#FEFF00", "#FF7B00", "#0055FF", "#3636b1", "#931b12", "#F88FFF"];
 const eachDiv = document.getElementsByTagName('div');
 
 buttonGenerator.addEventListener('click', () => {
     newDiv();
+    console.log(eachDiv); 
 });
 
 const newDiv = () => {
@@ -17,12 +18,6 @@ const newDiv = () => {
     } else {
         eachDiv[eachDiv.length - 1].appendChild(innerDiv);
     }
-};
-        // const colorBox = document.createElement('div');
-        // colorBox.setAttribute('class', 'colorDivvy');
-        // colorBox.style.borderColor = colorArray[Math.floor(Math.random()*colorArray.length)];
-        // container.appendChild(colorBox);
-        
-    
+};  
 
 

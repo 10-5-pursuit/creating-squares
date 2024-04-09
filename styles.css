@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  position: absolute;
+  z-index: 2;
+  top: 47%;
+  left: 45%;
+  border: 3px solid transparent;
+  border-radius: 35px;
+  height: 50px;
+  width: 150px;
+  color: white;
+  background: linear-gradient(126deg, #161624, #25253d, #292a50) border-box;
+  box-shadow: 2px 2px 2px gray;
+  border-image: linear-gradient(126deg, #161624 43%, #25253d 46%, #292a50 49%) 100px;
+}
+
+/*# sourceMappingURL=styles.css.map */
